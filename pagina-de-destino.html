@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-principal.css">
+
+  <title>Página Principal</title>
+</head>
+<body>
+  <div class="menu">
+    <p>Bryan Lucas</p>
+    <ul>
+      <li><a href="#" class="active" onclick="setActiveLink(event)">Home</a></li>
+      <li><a href="#about" onclick="setActiveLink(event)">About</a></li>
+    </ul>
+
+  </div>
+
+  <div class="content">
+    <p>Oi,</p>
+    <p>Eu sou <span class="cor">Bryan</span></p>
+    <p>Desenvolvedor Back-End</p>
+    <button class="contact-button" onclick="redirectToPage()">Contact</button>
+    <img src="man.png" alt="Imagem" class="content-image">
+  </div>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/bryan-nascimento-b37757209/" target="_blank">
+      <img src="linkedin.png" alt="LinkedIn" class="social-icon">
+    </a>
+    <a href="https://github.com/BryanLucasCabral" target="_blank">
+      <img src="github.png" alt="GitHub" class="social-icon">
+    </a>
+  </div>
+</div>
+
+  <hr>
+
+  <div class="about" id="about">
+    <h1>About</h1>
+  <div class="about-content">
+    <img src="me-icon.png" alt="Imagem" class="about-image">
+    <p class="about-text">Sou Bryan Lucas um desenvolvedor iniciante com dois anos de experiência em JavaScript, Node.js, React e React Native.minha paixão pela programação começou a dois anos quando adentrei na faculdade, desde lá venho estudando e me aperfeiçoando em algumas linguagens e frameworks.</p>
+  </div>
+  </div>
+
+  <footer><p> © Todos os direitos reservados para Bryan Lucas</p></footer>
+ <script src="script-principal.js"></script>
+</body>
+</html>
